@@ -4,7 +4,7 @@ window.onload = function () {
     document.getElementById("myModal"),
     {}
   );
-  $('#myModal').modal({backdrop: 'static', keyboard: false});
+  $('#myModal').modal({'data-bs-backdrop': 'static', 'data-bs-keyboard': false});
   // https://getbootstrap.com/docs/5.0/components/modal/#show
   myModal.show();
 };
